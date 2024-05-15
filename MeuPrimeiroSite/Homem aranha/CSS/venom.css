@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(160, 160, 160);
+    background-image: url(../img/background\ site2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 header{
@@ -7,15 +9,21 @@ background-color: rgb(0, 0, 0);
 padding: 3%;
 }
 
+div img{
+ width: 10%;
+}
+ nav{
+    font-family: "Kanit", sans-serif;
+ }  
+
+
 main{
-    background-color: aliceblue;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
@@ -29,18 +37,17 @@ p{
     color: rgb(0, 0, 0);
 }
 
-h1, h2{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+.titulos{
     line-height: 3;
     text-align: center;
     font-weight: bold;
+   
 }
 h1{
-    font-size: 2em;
+    font-size: 5em;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 
@@ -53,5 +60,4 @@ ul,li{
     line-height: 1.5;
     font-size: 1.2em;
 }
-
 
