@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(160, 160, 160);
+}
+
+header{
+background-color: rgb(165, 44, 44);
+padding: 3%;
+}
+
+main{
+    background-color: aliceblue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: brown;
+    color: aliceblue;
+}
+
+footer{
+    background-color: black;
+    padding: 3%;
+}
+
+p{
+    color: aliceblue;
+}
+
