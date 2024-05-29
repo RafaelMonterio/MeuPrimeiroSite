@@ -65,3 +65,13 @@ ul,li{
     color: aliceblue;
 }
 
+.rodape{
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+    padding: 1.5%;
+    color: rgb(207, 207, 207);
+}
+.rodape p{
+    color: aliceblue;
+}
+
