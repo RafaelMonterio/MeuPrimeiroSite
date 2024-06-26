@@ -10,7 +10,7 @@ header{
     display: flexbox;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 15%;
 }
 nav ul {
     list-style: none;
@@ -26,6 +26,10 @@ nav ul li a {
     text-decoration: none;
     padding: 10px 15px;
     display: flex;
+    line-height: 3;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 .menu-icon {
     display: none;
@@ -79,27 +83,9 @@ nav ul li a {
     max-width: 100%;
     height: auto;
     padding: 1%;
-    width: 80px;
+    width: 90px;
 }
-.caixa-imagem{
-    text-align: center;
-    margin-top: 1%;
-}
-figure{
-    text-align: center;
-    display: inline-block;
-}
-figure img{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-figure figcaption{
-    margin: 1.0em;
-    text-align: center;
-    color: black;
-}
+
 main{
     margin-top: 70px;
     padding: 20px;
@@ -115,7 +101,7 @@ main{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
-    padding: 5px 30px;
+    padding: 0.5px 30px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -128,17 +114,18 @@ main{
     line-height: 3;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-family: "Quicksand", sans-serif;
+   
 }
+
 .divgr{
     background-color: rgb(5, 5, 5);
     border-radius: 30px;
     position: relative;
     top: 700px;
-    right: 110px;
+    right: 120px;
     padding-left: 30px;
     padding-right: 30px;
-    width: 1210px;
+    width: 1450px;
 }
 
 .img1 img{
@@ -172,11 +159,13 @@ main{
 .divgr h1{
     font-size: 3em;
     text-align: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
 .divgr h2{
     font-size: 1.5em;
     text-align: calc(100);
+    font-family: "Quicksand", sans-serif;
 }
 
 table{
