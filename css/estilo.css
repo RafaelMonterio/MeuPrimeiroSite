@@ -3,8 +3,8 @@ body{
     background-attachment: fixed; 
     background-repeat: no-repeat; 
     background-position: center; 
-    background-image: url(../img/vm2\ \(2\).jpeg);
-    background-position-y: 50%;
+    background-image: url(../img/r2.jpg);
+    background-position-y: 0%;
 } 
 header{
     display: flexbox;
@@ -136,11 +136,11 @@ main{
     background-color: rgb(5, 5, 5);
     border-radius: 30px;
     position: relative;
-    top: 500px;
-    right: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 1140px;
+    top: 790px;
+    right: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 89%;
 }
 
 .img1 img{
@@ -170,16 +170,30 @@ main{
     padding-top: 10px;
 
 }
-.img4 {
-    display: flex;
+.odio {
+   
     align-items: center;
+    width: 899px;
 }
 
 .img4 img {
     margin-left: 20px;
-    max-width: 30%;
+    position: absolute;
+    right: 0%;
+    border-radius: 30px;
+    margin-right: 50px;
+    width: 26%;
+    top: 49.7%;
+    right: 4%;
 }
 
+.img5 img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
 .img7 img{
     border-radius: 30px;
     width: 900px;
@@ -197,6 +211,7 @@ main{
     color: rgb(255, 255, 255);
     font-family: "Quicksand", sans-serif;
     font-weight:400;
+    padding-bottom: 2%;
 }
 
 .divgr h1{
