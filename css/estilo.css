@@ -83,25 +83,7 @@ nav ul li a {
     padding: 1%;
     width: 80px;
 }
-.caixa-imagem{
-    text-align: center;
-    margin-top: 1%;
-}
-figure{
-    text-align: center;
-    display: inline-block;
-}
-figure img{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-figure figcaption{
-    margin: 1.0em;
-    text-align: center;
-    color: black;
-}
+
 main{
     margin-top: 70px;
     padding: 20px;
@@ -136,11 +118,11 @@ main{
     background-color: rgb(5, 5, 5);
     border-radius: 30px;
     position: relative;
-    top: 790px;
-    right: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
-    width: 89%;
+    top: 540px;
+    right: 104px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 109%;
 }
 
 .img1 img{
@@ -173,30 +155,33 @@ main{
 .odio {
    
     align-items: center;
-    width: 899px;
+    width: 730px;
+}
+.odio p{
+    padding-bottom: 8%;
 }
 
 .img4 img {
     margin-left: 20px;
     position: absolute;
-    right: 0%;
     border-radius: 30px;
     margin-right: 50px;
-    width: 26%;
-    top: 49.7%;
-    right: 4%;
+    width: 21%;
+    top: 46.7%;
+    right: 8%;
 }
 
 .img5 img {
-    width: 50%;
+    width: 55%;
     display: block;
     margin: 0 auto;
     border-radius: 30px;
+    margin-bottom: 3%;
 
 }
 .img7 img{
-    border-radius: 30px;
-    width: 900px;
+    border-radius: 50px;
+    width: 700px;
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -223,7 +208,7 @@ main{
 .divgr h2{
     font-size: 1.8em;
     text-align: calc(100);
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 table{
@@ -250,8 +235,9 @@ table{
     padding: 2%;
     background-color: black;
     color: #ffffff;
-    position: relative;
+    position: absolute;
     bottom: 0px;
 }
+
 
 
