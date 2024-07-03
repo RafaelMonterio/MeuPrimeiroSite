@@ -40,40 +40,56 @@ nav ul li a {
     display: none;
 }
 
-@media (max-width: 768px) {
-    .menu-icon {
-        display: block;
-        padding-right: 10px;
-    }
-
-    nav ul {
+@media screen and (max-width: 1020px) {
+    nav ul li{
         display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: #ffffff;
+    }
+    .logo {
+       
+        width: 50px;
+    }
+    main .divgr{
+        width: 296px;
+        display:block;
+        margin: 0 auto;
         position: absolute;
-        top: 60px;
-        left: 0;
-        z-index: 1000;
-        padding: 0;
+        right: 0px;
+    }
+    .divgr section h2 {
+        font-size: 1.2em;
     }
 
-    #menu-toggle:checked + .menu-icon + ul {
+    .divgr section h1{
+        font-size: 1.8em;
+    }
+
+    .divgr section p{
+        font-size: 0.7em;
+        padding-left: -70px;
+    }
+    .divgr .img4 {
         display: flex;
+        align-items: center;
+        flex-direction:column-reverse;
     }
-
-    nav ul li {
-        text-align: center;
-        margin: 0;
-    }
-
-    nav ul li a {
-        padding: 15px 0;
+    .divgr .img4 p{
+     width: 100%;
     }
     
-    nav ul li label {
+    .divgr .imgav img {
+        border-radius: 30px;
+        margin-bottom: 8%;
+        width: 250px;
+        margin-left: -12%;
+    }
+
+    .img5{
+        width: 190%;
+        margin-left: -130px;
+    }
+    .img7{
+        margin-left: -30px;
         width: 100%;
-        display: block;
     }
 }
 
@@ -99,7 +115,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(5, 5, 5);
     padding: 5px 30px;
     position: fixed;
     top: 0;
@@ -154,25 +170,21 @@ main{
     height: auto;
     padding-bottom: 22px;
     padding-top: 10px;
-
 }
-.odio {
-   
+.img4 {
+    display: flex;
     align-items: center;
-    width: 730px;
+    flex-direction:row;
 }
-.odio p{
+.img4 p{
     padding-bottom: 8%;
+    width: 70%;
 }
 
-.img4 img {
-    margin-left: 20px;
-    position: absolute;
+.imgav img {
+    margin-left: -280px;
     border-radius: 30px;
-    margin-right: 50px;
-    width: 21%;
-    top: 46.7%;
-    right: 8%;
+    width: 400px;
 }
 
 .img5 img {
@@ -196,7 +208,7 @@ main{
 .divgr p{
     line-height: 1.5;
     font-size: 1.1em;
-    text-align: justify;
+    text-align:left;
     color: rgb(255, 255, 255);
     font-family: "Quicksand", sans-serif;
     font-weight:400;
@@ -242,6 +254,3 @@ table{
     position: absolute;
     bottom: 0px;
 }
-
-
-
