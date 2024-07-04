@@ -4,15 +4,14 @@ body{
     background-repeat: no-repeat; 
     background-position: center; 
     background-image: url(../img/r2.jpg);
-    background-position-y: 0%;
+    background-position-y: 7%;
 } 
 header{
     display: flexbox;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 10%;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    font-weight: bold;
 }
 nav ul {
     list-style: none;
@@ -28,7 +27,7 @@ nav ul li a {
     text-decoration: none;
     padding: 10px 15px;
     display: flex;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .menu-icon {
     display: none;
@@ -40,20 +39,24 @@ nav ul li a {
     display: none;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 900px) {
     nav ul li{
         display: none;
     }
     .logo {
-       
-        width: 50px;
+        width: 80px;
+    }
+
+    body main{
+        width: 3%;
+        margin-top: 100%;
     }
     main .divgr{
-        width: 296px;
+        width: 210px;
         display:block;
         margin: 0 auto;
-        position: absolute;
-        right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .divgr section h2 {
         font-size: 1.2em;
@@ -94,20 +97,15 @@ nav ul li a {
 }
 
 .logo img{ 
- 
     max-width: 100%;
     height: auto;
     padding: 1%;
-    width: 80px;
+    width: 70px;
 }
 
 main{
-    margin-top: 70px;
-    padding: 20px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-
+    width: 100%;
+    margin-top: 48%;
 }
 
 
@@ -135,13 +133,12 @@ main{
 .divgr{
     background-color: rgb(5, 5, 5);
     border-radius: 30px;
-    position: relative;
-    top: 540px;
-    right: 104px;
+    display: block;
+    margin: 0 auto;
     padding-left: 60px;
     padding-right: 60px;
-    width: 109%;
-    font-size: 1.3em;
+    width: 85%;
+    font-size: 1.1em;
 }
 
 
@@ -182,9 +179,9 @@ main{
 }
 
 .imgav img {
-    margin-left: -280px;
+    margin-left: -270px;
     border-radius: 30px;
-    width: 400px;
+    width: 330px;
 }
 
 .img5 img {
@@ -216,13 +213,13 @@ main{
 }
 
 .divgr h1{
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
 .divgr h2{
-    font-size: 1.8em;
+    font-size: 1.3em;
     text-align: calc(100);
     padding-top: 20px;
 }
